@@ -1,0 +1,87 @@
+.navbar_home {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 15vh;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list-item_home {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-links_home {
+  text-decoration: none;
+  width: 8rem;
+  height: 3rem;
+  padding: 0 20px;
+  background: rgb(39, 39, 39);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(254, 24, 101);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.179), -4px -4px 4px rgb(48, 48, 48);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.list-links_home:hover {
+  color: white;
+}
+
+.list-links_home:active {
+  box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.179), 4px 4px 4px rgb(48, 48, 48);
+}
+
+.login_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+.drop_down_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.list-links_home_3 {
+  text-decoration: none;
+  width: 6rem;
+  height: 1.5rem;
+  padding: 0 20px;
+  background: rgb(39, 39, 39);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(254, 24, 101);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.179), -4px -4px 4px rgb(48, 48, 48);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}

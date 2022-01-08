@@ -1,0 +1,117 @@
+.body_teacher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(39, 39, 39);
+  font-family: sans-serif;
+}
+
+.container_form_2 {
+  width: 100%;
+  height: 80%;
+  border-radius: 50px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.248), -6px -6px -4px rgb(48, 48, 48);
+}
+
+.teacher_forms_2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  top: 4rem;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.id_date_2 {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.class_title_2 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: white;
+  margin-left: 2rem;
+}
+
+.secy_id_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.date_2 {
+  width: 40%;
+}
+
+.for_width_2 {
+  width: 40%;
+}
+.form-title_2 {
+  position: relative;
+  background-color: rgb(39, 39, 39);
+  bottom: 2rem;
+  display: flex;
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(255, 24, 101);
+  user-select: none;
+  text-shadow: 6px 6px 4px rgba(10, 10, 10, 0.241);
+}
+
+.form-input_2 {
+  position: relative;
+  margin: 20px;
+  width: 100%;
+  height: 4rem;
+  padding: 0 20px;
+  background: rgb(39, 39, 39);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: rgb(254, 24, 101);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.179), -4px -4px 4px rgb(48, 48, 48);
+}
+
+.form-input_2::-moz-placeholder {
+  color: rgb(79, 79, 79);
+}
+
+.form-input_2::placeholder {
+  color: rgb(79, 79, 79);
+}
+
+.form-input_2:focus {
+  box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.179), 4px 4px 4px rgb(48, 48, 48);
+}
+
+.button-teacher {
+  width: 400px;
+  height: 90px;
+  border: 0;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 2.5rem;
+  border-radius: 30px;
+  color: rgb(245, 24, 101);
+  background: rgb(39, 39, 39);
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.248), -4px -4px 4px rgb(48, 48, 48);
+}
+
+.button-teacher:active {
+  transform: scale(0.9);
+}
+
+.text_area_2 {
+  padding-top: 1rem;
+}
