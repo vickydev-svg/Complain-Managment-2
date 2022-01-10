@@ -1,15 +1,15 @@
 import React from "react";
-const General_Complain_List = () => {
+import { Link } from "react-router-dom";
+const General_Complain_List = ({ id, rollno, subject, department, date}) => {
+  date = date.split("T")[0];
   return (
     <div class="complain_content_desc">
-      <div class="roll_general">1</div>
-      <div class="sub_general">Injury</div>
-      <div class="depart_general">Sport</div>
-      <div class="date_general">2022-01-05</div>
+      <div class="roll_general">{rollno}</div>
+      <div class="sub_general">{subject}</div>
+      <div class="depart_general">{department}</div>
+      <div class="date_general">{date}</div>
       <div class="deta_general">
-        <a href="" className="details_anchor">
-          Details
-        </a>
+      <Link className = "details_anchor" to={"/student/complainDetail/"+id}> Details </Link>
       </div>
     </div>
   );

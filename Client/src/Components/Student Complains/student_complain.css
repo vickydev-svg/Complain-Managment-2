@@ -8,14 +8,14 @@ body {
   padding: 0;
   background: rgb(39, 39, 39);
   width: 100%;
-  height: 200vh;
+  height: 130vh;
   position: relative;
 }
 
 .content_box_student {
   margin-left: 10%;
   width: 80%;
-  height: 40%;
+  height: 60%;
 
   position: absolute;
   top: 20%;
@@ -183,4 +183,7 @@ body {
 .student_btn_1:hover,
 .student_btn_2:hover {
   box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.179), 4px 4px 4px rgb(48, 48, 48);
+}
+.width2{
+  width: 70%;
 }
