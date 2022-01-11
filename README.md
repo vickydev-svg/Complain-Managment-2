@@ -38,9 +38,9 @@ In History Admin can see his/her past Resolved complains where he/she can see th
 <Image>
 
 
-We have hosted our website on [Frontend Netlify and Backend Heroku ](https://cocky-curie-141286.netlify.app/)
-Please Open it in PC as it is not mobile responsive.
-If you want to login as Student write rollno:190002022 and password:123
+We have hosted our website on [Frontend Netlify and Backend Heroku ](https://cocky-curie-141286.netlify.app/)</br>
+ Please Open it in PC as it is not mobile responsive.</br>
+ If you want to login as Student write rollno:190002022 and password:123</br>
 If you want to login as Student write department:Sport and password:123
   
 #### If you find any errors, feel free to raise an issue :)  
